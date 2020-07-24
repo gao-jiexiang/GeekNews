@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/ctl"
+            app:contentScrim="@color/colorPrimaryDark"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.6"
+                android:scaleType="centerCrop"
+                android:id="@+id/iv_blur"
+                android:src="@mipmap/ph11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="0.6"
+                android:scaleType="centerCrop"
+                android:id="@+id/iv_origin"
+                android:src="@mipmap/ph11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_gravity="right|bottom"
+                android:layout_margin="20dp"
+                android:textSize="18sp"
+                android:text="带马甲"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:text="@string/about"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:text="@string/about"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:text="@string/about"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+            <TextView
+                android:text="@string/about"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

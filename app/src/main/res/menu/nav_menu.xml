@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1" android:title="@string/menu_zhihu" android:icon="@mipmap/ic_drawer_zhihu"></item>
+    <item android:id="@+id/item2" android:title="@string/menu_weixin" android:icon="@mipmap/ic_drawer_wechat"></item>
+    <item android:id="@+id/item3" android:title="@string/menu_gold" android:icon="@mipmap/ic_drawer_gold"></item>
+    <item android:id="@+id/item6" android:title="@string/menu_gank" android:icon="@mipmap/ic_drawer_gank"></item>
+    <item android:id="@+id/item4" android:title="@string/menu_stickyheader" android:icon="@mipmap/ic_drawer_like"></item>
+    <item android:id="@+id/item5" android:title="@string/menu_flowlayout" android:icon="@mipmap/ic_drawer_like"></item>
+    <item android:id="@+id/item7" android:title="@string/menu_appbar" android:icon="@mipmap/ic_drawer_like"></item>
+</menu>

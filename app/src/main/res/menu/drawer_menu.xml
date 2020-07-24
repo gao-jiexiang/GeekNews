@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_info">
+        <item
+            android:id="@+id/info"
+            android:title="@string/info" />
+
+        <item
+            android:checked="true"
+            android:checkable="true"
+            android:id="@+id/zhihu"
+            android:icon="@mipmap/ic_drawer_zhihu"
+            android:title="@string/zhihu"/>
+
+        <item
+            android:checkable="true"
+            android:id="@+id/wechat"
+            android:icon="@mipmap/ic_drawer_wechat"
+            android:title="@string/wechat"/>
+        <item
+            android:checkable="true"
+            android:id="@+id/gank"
+            android:icon="@mipmap/ic_drawer_gank"
+            android:title="@string/gank"/>
+        <item
+            android:checkable="true"
+            android:id="@+id/gold"
+            android:icon="@mipmap/ic_drawer_gold"
+            android:title="@string/gold"/>
+        <item
+            android:checkable="true"
+            android:id="@+id/vtex"
+            android:icon="@mipmap/ic_drawer_vtex"
+            android:title="@string/v2ex"/>
+    </group>
+    <group android:id="@+id/group_option">
+        <item android:id="@+id/option" android:title="@string/option"/>
+
+        <item
+            android:checkable="true"
+            android:id="@+id/collect"
+            android:icon="@mipmap/ic_drawer_like"
+            android:title="@string/collect"/>
+
+        <item
+            android:checkable="true"
+            android:id="@+id/settings"
+            android:icon="@mipmap/ic_drawer_setting"
+            android:title="@string/settings"/>
+
+        <item
+            android:checkable="true"
+            android:id="@+id/about"
+            android:icon="@mipmap/ic_drawer_about"
+            android:title="@string/about"/>
+    </group>
+</menu>

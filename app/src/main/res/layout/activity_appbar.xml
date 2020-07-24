@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fab_bg"
+    tools:context=".AppbarActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_name"
+                android:text="我是toolbar的标题"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </androidx.appcompat.widget.Toolbar>
+        <!--//如果不加layout_behavior,子条目会被toolBar挡住一部分-->
+        <!--<androidx.recyclerview.widget.RecyclerView-->
+            <!--android:id="@+id/rlv"-->
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:background="@color/fab_bg"
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:background="@color/white"
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啥啥啥"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+                <TextView
+                    android:text="啊啊啊啊"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
